@@ -1,0 +1,43 @@
+Easy Binary Search Problems
+
+Start with these to get comfortable with the basic template.
+
+   X 704. Binary Search – Classic binary search in a sorted array.
+
+   X 278. First Bad Version – Find the first occurrence in a range.
+
+   X 35. Search Insert Position – Find position to insert.
+
+   X 367. Valid Perfect Square – Square root using binary search.
+
+   X 69. Sqrt(x) – Integer square root.
+
+   X 852. Peak Index in a Mountain Array – Binary search for the peak.
+
+   X 744. Find Smallest Letter Greater Than Target – Circular search.
+
+   X 374. Guess Number Higher or Lower – Binary search with feedback.
+
+Medium Binary Search Problems
+
+Once basics are clear, move to slightly more challenging variations.
+
+    X 34. Find First and Last Position of Element in Sorted Array – Binary search for boundaries.
+
+    X 162. Find Peak Element – Binary search in an unsorted array.
+
+    X 33. Search in Rotated Sorted Array – Binary search with rotation.
+
+    X 81. Search in Rotated Sorted Array II – Rotation + duplicates.
+
+    X 153. Find Minimum in Rotated Sorted Array – Minimum in rotated array.
+
+    XXX 154. Find Minimum in Rotated Sorted Array II – Same but with duplicates.
+
+    287. Find the Duplicate Number – Binary search on value range.
+
+    540. Single Element in a Sorted Array – Pair index trick.
+
+    4. Median of Two Sorted Arrays – Partition logic (harder side of medium).
+
+    222. Count Complete Tree Nodes – Binary search on tree height.
