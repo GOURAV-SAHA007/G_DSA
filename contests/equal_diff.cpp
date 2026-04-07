@@ -14,7 +14,7 @@ int main() {
         unordered_map<long long, long long> cnt;
         cnt.reserve(N * 2);
         for (int i = 0; i < N; ++i) {
-            long long key = A[i] - (i + 1); // Ai - i
+            long long key = A[i] - (i + 1); 
             ++cnt[key];
         }
 
