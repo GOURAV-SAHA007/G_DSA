@@ -1,25 +1,22 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main(){
     int n;
-    cin >> n;
+    if (!(cin >> n)) return 0;
 
-    string results[n];
-    for(int i=0; i<n; i++){
+    vector<string> results(n);
+    for (int i = 0; i < n; ++i) {
         string word;
         cin >> word;
-
-        if(word.length()>=10){
-            int len = word.length()-2;
-            results[i] = word[0] + to_string(len) + word[word.length()-1];
-        }else{
+        if (word.length() > 10) {
+            int len = static_cast<int>(word.length()) - 2;
+            results[i] = string(1, word.front()) + to_string(len) + string(1, word.back());
+        } else {
             results[i] = word;
         }
     }
 
-    for(int i=0; i<n; i++){
-        cout << results[i] << endl;
-    }
+    for (const auto &s : results) cout << s << '\n';
     return 0;
 }
